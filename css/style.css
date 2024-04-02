@@ -1,0 +1,62 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #25313B; 
+}
+header{
+    background-color: #DBE3FD;
+}
+header img{
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+}
+
+header h1{
+    padding-bottom: 20px;
+    color: #13557D;
+}
+header p{
+    padding-bottom: 20px;
+    font-size: .5em;
+}
+.activities h2{
+    color: #13557D;
+    padding-bottom: 20px;
+}
+.activities li{
+    padding-bottom: 10px;
+}
+.activities img{
+  object-fit: cover; /* Do not scale the image */
+  width: 100%;
+  max-height: 500px;
+  margin-bottom: 1rem;
+  box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+}
+.bttn-color{
+    background-color: #13557D;
+    color: #F7F7F3;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+}
+.bttn-color:hover{
+    background-color: #557B8F;
+}
+.activities{
+    background-color: #EFF2FA;
+}
+.sign-up{
+    background-color: #EFF2FA;
+}
+.hotels{
+    background-color: #DBE3FD;
+}
+.hotel-header{
+    padding-bottom: 30px;
+}
+.cta{
+    height: auto;
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+    background: rgb(51,81,91);
+}
